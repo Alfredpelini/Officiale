@@ -1,4 +1,8 @@
 from dotenv import load_dotenv
+import os
+load_dotenv()
+token = os.getenv("TOKEN")
+from dotenv import load_dotenv
 load_dotenv()
 
 import json
